@@ -1,5 +1,3 @@
-# Elm
-
 # Elm Tools
 
 ## Elm Compiler
