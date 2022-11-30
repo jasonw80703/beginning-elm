@@ -57,6 +57,13 @@ weekday dayInNumber =
     else
         "Invalid"
 
+multiplyByFive number =
+    let
+        multiplier =
+            5
+    in
+    number * multiplier
+
 -- execution of all Elm apps start with main
 main : Html.Html msg -- Html.text takes a string and displays it on a browser
 -- main = -- Html.text (escapeEarth 11 (computeSpeed 7.67 (computeTime 2 3 )))
